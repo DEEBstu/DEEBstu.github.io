@@ -1,8 +1,10 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dubious Games - Independent Studio</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --black: #050508;
@@ -81,7 +83,6 @@
     padding-left: 15px;
   }
 
-  /* Portal */
   .portal-card {
     background: rgba(57, 255, 20, 0.02);
     border: 2px dashed var(--kids-green);
@@ -94,7 +95,6 @@
   }
   .portal-card:hover { transform: translateY(-5px); background: rgba(57, 255, 20, 0.05); }
 
-  /* Games Grid */
   .games-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -117,7 +117,6 @@
 
   .game-icon { width: 64px; height: 64px; object-fit: contain; image-rendering: pixelated; border-radius: 8px; }
 
-  /* Manifesto Section */
   .studio-rules {
     background: var(--panel);
     border: 1px solid var(--border);
@@ -131,7 +130,6 @@
   .rule-text { font-size: 0.95rem; color: var(--dim); }
   .rule-text strong { color: var(--white); }
 
-  /* Team */
   .team-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -141,9 +139,7 @@
 
   footer { text-align: center; padding: 4rem; border-top: 1px solid var(--border); color: var(--dim); font-family: 'Space Mono'; font-size: 0.7rem; }
 </style>
-<style id="dark-reader-style" type="text/css">@media screen {
-html {-webkit-transition : -webkit-filter 300ms linear;}
-}</style></head>
+</head>
 <body>
 
 <nav>
@@ -212,17 +208,17 @@ html {-webkit-transition : -webkit-filter 300ms linear;}
       <div class="rule-text"><strong>Privacy:</strong> No ID or face tracking. Phone number only if essential.</div>
     </div>
 
-<div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
-  <h4 style="font-family: 'Space Mono', monospace; color: var(--neon-blue); font-size: 0.8rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
-    [ THE DUBIOUS GUARANTEE ]
-  </h4>
-  <p style="font-size: 0.85rem; color: var(--dim); font-style: italic; line-height: 1.6;">
-    We hold ourselves to these standards. If a project fails to meet <strong>1 to 3</strong> of these rules, the game will be <strong>discounted</strong> as an apology. 
-    If a project fails <strong>4 or more</strong> rules, the game will be released for <strong>free</strong>. 
-    If we break every single rule, we will issue a public apology and discount our <strong>entire catalog</strong>.
-  </p>
-  <p style="font-size: 0.85rem; color: var(--white); margin-top: 10px; font-weight: bold;">We stand by our work.</p>
-</div>
+    <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+      <h4 style="font-family: 'Space Mono', monospace; color: var(--neon-blue); font-size: 0.8rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+        [ THE DUBIOUS GUARANTEE ]
+      </h4>
+      <p style="font-size: 0.85rem; color: var(--dim); font-style: italic; line-height: 1.6;">
+        If a project fails to meet <strong>1 to 3</strong> of these rules, the game will be <strong>discounted</strong> as an apology. 
+        If a project fails <strong>4 or more</strong> rules, the game will be released for <strong>free</strong>. 
+        If we break every single rule, we will issue a public apology and discount our <strong>entire catalog</strong>.
+      </p>
+      <p style="font-size: 0.85rem; color: var(--white); margin-top: 10px; font-weight: bold;">We stand by our work.</p>
+    </div>
   </div>
 </section>
 
@@ -249,7 +245,5 @@ html {-webkit-transition : -webkit-filter 300ms linear;}
   <p style="margin-top: 10px; opacity: 0.5;">Hucknall, England</p>
 </footer>
 
-
-
-
-</body></html>
+</body>
+</html>
